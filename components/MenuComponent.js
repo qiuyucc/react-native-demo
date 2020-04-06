@@ -22,13 +22,13 @@ class Menu extends Component {
         const renderMenuItem = ({ item, index }) => {
             return (
                 <ListItem
-                    key={index}
-                    title={item.name}
-                    subtitle={item.description}
-                    hideChevron={true}
-                    onPress={() => navigate('Dishdetail', { dishId: item.id })}
-                    leftAvatar={{ source: require('./images/uthappizza.png') }}
-                />
+                key={index}
+                title={item.name}
+                subtitle={item.description}
+                hideChevron={true}
+                onPress={() => navigate('Dishdetail', {dishId:item.id})}
+                leftAvatar={{ source: require('./images/uthappizza.png')}}
+              />
             );
         }
         const { navigate } = this.props.navigation;
@@ -44,10 +44,6 @@ class Menu extends Component {
 
 
 }
-
-
-
-
 
 
 export default Menu;
