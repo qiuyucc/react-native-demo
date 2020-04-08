@@ -3,7 +3,7 @@ import Menu from './MenuComponent';
 import { DISHES } from '../shared/dishes';
 import Dishdetail from './DishdetailComponent';
 import Contact from './ContactComponent';
-import { View, Platform,Image, StyleSheet,ScrollView,Text } from 'react-native';
+import { View, Platform,Image, StyleSheet,ScrollView,Text} from 'react-native';
 import { createStackNavigator, createDrawerNavigator,DrawerItems,SafeAreaView } from 'react-navigation';
 import Home from './HomeComponent';
 import Aboutus from './AboutComponent';
@@ -202,9 +202,9 @@ class Main extends Component {
   render() {
  
     return (
-        <View style={{flex:1, paddingTop: Platform.OS === 'andorid' ? 0 : Expo.Constants.statusBarHeight }}>
+       
             <MainNavigator />
-        </View>
+     
     );
   }
 }

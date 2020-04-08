@@ -27,6 +27,7 @@ function RenderItem(props) {
                     style={{margin: 10}}>
                     {item.description}</Text>
             </Card>
+           
         );
     }
     else {
