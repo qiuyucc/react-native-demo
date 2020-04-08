@@ -84,3 +84,9 @@ app.manifest
 
 # Expo
 .expo/*
+
+#js-server
+json-server_db.zip
+
+#readme
+README.md
