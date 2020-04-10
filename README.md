@@ -66,3 +66,6 @@ yarn add redux-logger@3.0.6`
 - Setup and use the standalone react-devtools
 - Debug JS remotely in a chrome. `npm i -g react-devtools@3`
 - Open devtools in terminal `react-devtool`
+
+##Adding a Form
+`yarn install react-native-datepicker@1.7.2`
