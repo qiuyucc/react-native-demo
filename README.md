@@ -62,3 +62,7 @@ yarn add redux-logger@3.0.6`
 - create a folder named public, unzip json-server db zip file in repo, put images file inside public folder, and put db.json file out of public folder.
 - ` json-server --watch db.json -p 3001 -d 2000` configuring the Server
 
+##Debugging
+- Setup and use the standalone react-devtools
+- Debug JS remotely in a chrome. `npm i -g react-devtools@3`
+- Open devtools in terminal `react-devtool`
