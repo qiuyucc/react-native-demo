@@ -70,3 +70,5 @@ yarn add redux-logger@3.0.6`
 ## Adding a Form
 `yarn install react-native-datepicker@1.7.2`
 
+## Swipe gesture
+`yarn add react-native-swipeout@2.3.3`
