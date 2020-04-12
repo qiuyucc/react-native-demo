@@ -1,31 +1,35 @@
-import React ,{Component} from 'react';
-import {Text ,StyleSheet, View} from 'react-native'
+import React, { Component } from 'react';
+import { Text, StyleSheet, View, ScrollView } from 'react-native'
 import { Card } from 'react-native-elements';
+import * as Animatable from 'react-native-animatable';
 
-class address extends Component{
+class address extends Component {
 
-    static navigationOptions={
+    static navigationOptions = {
         title: 'Our Address'
     };
 
-    render(){
-        return(
-            <Card>
-             <Text style={styles.headline}>Contact Info</Text>
-                <View style ={styles.lineStyle}/>
-                <Text>
-                    {`\n`}121, Clear Water Bay Road
+    render() {
+        return (
+            <ScrollView>
+                  <Animatable.View animation="fadeInDown" duration={2000}>
+                 <Card title="Contact Information">
+                    <Text>
+                        {`\n`}121, Clear Water Bay Road
                     {`\n`} Clear Water Bay, Kowloon
                     {`\n`} HONG KONG
                     {`\n`} Tel: +85212345678
                     {`\n`} Fax: +85287654321
                     {`\n`} Email:confustion@food.net
                 </Text>
-            </Card>
+                </Card>
+                </Animatable.View>
+            </ScrollView>
+
         );
     }
 
-   
+
 
 }
 
@@ -37,11 +41,11 @@ const styles = StyleSheet.create({
         marginTop: 0,
         width: 300
     },
-    lineStyle:{
+    lineStyle: {
         borderWidth: 0.3,
-        borderColor:'grey',
-        margin:10,
-   }
+        borderColor: 'grey',
+        margin: 10,
+    }
 });
 
 

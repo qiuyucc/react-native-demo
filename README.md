@@ -72,3 +72,7 @@ yarn add redux-logger@3.0.6`
 
 ## Swipe gesture
 `yarn add react-native-swipeout@2.3.3`
+
+## Using react-native-animatable
+- First install react-native-animatable in your app by typing the following at the prompt:
+`yarn add react-native-animatable@1.2.4`
