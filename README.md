@@ -57,15 +57,16 @@ yarn add react-redux@5.0.7
 yarn add redux-thunk@2.2.0
 yarn add redux-logger@3.0.6`
 
-##Setting up json-server
+## Setting up json-server
 - ` npm install json-server -g` install json-server globally
 - create a folder named public, unzip json-server db zip file in repo, put images file inside public folder, and put db.json file out of public folder.
 - ` json-server --watch db.json -p 3001 -d 2000` configuring the Server
 
-##Debugging
+## Debugging
 - Setup and use the standalone react-devtools
 - Debug JS remotely in a chrome. `npm i -g react-devtools@3`
 - Open devtools in terminal `react-devtool`
 
-##Adding a Form
+## Adding a Form
 `yarn install react-native-datepicker@1.7.2`
+
