@@ -76,3 +76,8 @@ yarn add redux-logger@3.0.6`
 ## Using react-native-animatable
 - First install react-native-animatable in your app by typing the following at the prompt:
 `yarn add react-native-animatable@1.2.4`
+
+
+## Using redux-persist
+`yarn add redux-persist@5.9.1`
+
