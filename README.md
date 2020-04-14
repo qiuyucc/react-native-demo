@@ -84,7 +84,9 @@ Redux Persist takes your Redux state object and saves it to persisted storage. T
 
 
 ## Expo SecureStore 
-Go to check the documenetaton of Expo SecureStore
+- Go to check the documenetaton of Expo SecureStore
+- `expo install expo-secure-store`
+- import * as SecureStore from 'expo-secure-store';
 
 ## Notification
 - Configure your app to use notification support from Expo SDK
@@ -93,4 +95,11 @@ Go to check the documenetaton of Expo SecureStore
 ## Social Sharing
 - Use Expo SDK MailComposer to enable sending email using the native email application
 - Enable sharing of information to social media sites using the React Native Share API
-`expo install expo-mail-composer`
+- `expo install expo-mail-composer`
+
+## Picking an image
+- Use the ImagePicker API from Expo SDK
+- Enable your application to obtain an image from the camera
+- `expo install expo-image-picker`
+- `expo install expo-image-manipulator`
+- `expo install expo-asset`

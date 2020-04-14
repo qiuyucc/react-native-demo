@@ -48,7 +48,7 @@ const mapStateToProps = state => {
   })
 
   const LoginNavigator = createStackNavigator({
-    Login: { screen: Login }
+    Login: Login
   }, {
   navigationOptions: ({ navigation }) => ({
     headerStyle: {
@@ -57,6 +57,7 @@ const mapStateToProps = state => {
     headerTitleStyle: {
         color: "#fff"            
     },
+    title: 'Login',
     headerTintColor: "#fff",
     headerLeft: <Icon name="menu" size={24}
       iconStyle={{ color: 'white' }} 
