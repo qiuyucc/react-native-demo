@@ -7,6 +7,7 @@
     "devtools": "react-devtools"
   },
   "dependencies": {
+    "@react-native-community/netinfo": "^5.7.0",
     "expo": "~37.0.3",
     "expo-asset": "^8.1.4",
     "expo-image-manipulator": "^8.1.0",
@@ -22,6 +23,7 @@
     "react-native-datepicker": "1.7.2",
     "react-native-elements": "^1.0.0-beta8",
     "react-native-gesture-handler": "~1.6.0",
+    "react-native-netinfo": "^1.1.0",
     "react-native-reanimated": "~1.7.0",
     "react-native-screens": "~2.2.0",
     "react-native-swipeout": "2.3.3",

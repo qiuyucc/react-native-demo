@@ -103,3 +103,8 @@ Redux Persist takes your Redux state object and saves it to persisted storage. T
 - `expo install expo-image-picker`
 - `expo install expo-image-manipulator`
 - `expo install expo-asset`
+
+## Network Info
+- Use the NetInfo API to obtain network information
+- Respond to changes in the network information
+- `yarn add react-native-netinfo`
