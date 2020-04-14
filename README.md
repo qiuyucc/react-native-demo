@@ -80,4 +80,17 @@ yarn add redux-logger@3.0.6`
 
 ## Using redux-persist
 `yarn add redux-persist@5.9.1`
+Redux Persist takes your Redux state object and saves it to persisted storage. Then on app launch it retrieves this persisted state and saves it back to redux.
 
+
+## Expo SecureStore 
+Go to check the documenetaton of Expo SecureStore
+
+## Notification
+- Configure your app to use notification support from Expo SDK
+- Generate local notifications in your app
+
+## Social Sharing
+- Use Expo SDK MailComposer to enable sending email using the native email application
+- Enable sharing of information to social media sites using the React Native Share API
+`expo install expo-mail-composer`
