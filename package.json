@@ -7,9 +7,10 @@
     "devtools": "react-devtools"
   },
   "dependencies": {
-    "@react-native-community/netinfo": "^5.7.0",
-    "expo": "~37.0.3",
+    "@react-native-community/netinfo": "5.5",
+    "expo": "^37.0.7",
     "expo-asset": "^8.1.4",
+    "expo-calendar": "^8.1.0",
     "expo-image-manipulator": "^8.1.0",
     "expo-image-picker": "^8.1.0",
     "expo-mail-composer": "^8.1.0",

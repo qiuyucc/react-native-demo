@@ -4,7 +4,7 @@ import { DISHES } from '../shared/dishes';
 import Dishdetail from './DishdetailComponent';
 import Contact from './ContactComponent';
 import { View, Platform, Text, ScrollView, Image, StyleSheet,ToastAndroid } from 'react-native';
-import NetInfo from "@react-native-community/netinfo";
+//import NetInfo from "@react-native-community/netinfo";
 import { createStackNavigator, createDrawerNavigator,DrawerItems,SafeAreaView } from 'react-navigation';
 import Home from './HomeComponent';
 import Aboutus from './AboutComponent';
