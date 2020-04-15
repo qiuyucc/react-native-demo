@@ -60,7 +60,7 @@ yarn add redux-logger@3.0.6`
 ## Setting up json-server
 - ` npm install json-server -g` install json-server globally
 - create a folder named public, unzip json-server db zip file in repo, put images file inside public folder, and put db.json file out of public folder.
-- ` json-server --watch db.json -p 3001 -d 2000` configuring the Server
+- ` json-server --host 172.27.243.241:3001 --watch db.json -p 3001 -d 2000` configuring the Server
 
 ## Debugging
 - Setup and use the standalone react-devtools
