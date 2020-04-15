@@ -108,3 +108,37 @@ Redux Persist takes your Redux state object and saves it to persisted storage. T
 - Use the NetInfo API to obtain network information
 - Respond to changes in the network information
 - `yarn add react-native-netinfo`
+
+# Building Standalone Apps
+- Set up Expo XDE and install the Expo CLI named exp and use them to build and deploy your application
+- Configure your React Native application and then use the online services from Expo to build the Android APK for deployment to the Google Play store
+
+1. Expo XDE, CLI and Expo Account
+    - Download and install Expo XDE as per the instructions given here.
+    - Start Expo XDE and sign up for an account on Expo. You will need an Expo account in order to do the building of the Android APK or iOS IPA files.
+    - `yarn global add exp@54.0.1`
+    - download the icon.png file given above, and put it in the project's root folder
+    - open the app.json file and updates as follow:
+     `{
+  "expo": {
+    "sdkVersion": "27.0.0",
+    "name": "confusion",
+    "icon": "./icon.png",
+    "version": "1.0.0",
+    "slug": "confusion",
+    "ios": {
+      "bundleIdentifier": "net.food.confusion.confusion"
+    },
+    "android": {
+      "package": "net.food.confusion.confusion"
+    }
+  }
+}`
+
+2. Building the Android APK
+  - refer to expo doc [link](https://docs.expo.io/versions/latest/distribution/building-standalone-apps/?redirected)
+  - `exp build: android`
+
+3. Eject the project
+    - `yarn run eject`
+    - Follow along the instruction on the screen. Since you are using Expo APIs in the project.
